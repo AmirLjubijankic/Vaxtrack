@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Vaxtrack</string>
+    <string name="potvrdite">POTVRDITE</string>
+    <string name="logo">logo</string>
+    <string name="hint">hint</string>
+    <string name="unesite_adresu">Unesite adresu</string>
+    <string name="registruj_se">REGISTRUJ SE</string>
+    <string name="prijavi_se">PRIJAVI SE</string>
+    <string name="username_input">Unesite korisničko ime</string>
+    <string name="registruj_se_text">Registruj se!</string>
+    <string name="username_example">Korisničko ime</string>
+</resources>
