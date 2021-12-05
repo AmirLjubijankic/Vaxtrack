@@ -20,4 +20,24 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        style="@android:style/Widget.DeviceDefault.EditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="500dp"
+        android:width="350dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="Unesite email adresu"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registruj_se" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
