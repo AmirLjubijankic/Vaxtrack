@@ -34,6 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
+            android:layout_marginStart="30dp"
             android:layout_marginLeft="5dp"
             android:drawableTop="@drawable/ic_chart"
             android:text="STATISTIKA"
@@ -55,12 +56,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
             android:layout_marginRight="5dp"
             android:drawableTop="@drawable/ic_news"
             android:text="NOVOSTI"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="10sp" />
+
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/extended_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_gravity="bottom|end"
+            android:contentDescription="Hello"
+            android:text="IDK"
+            app:icon="@drawable/ic_plus"/>
+
+
     </RelativeLayout>
 
 
