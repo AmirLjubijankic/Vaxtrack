@@ -7,6 +7,11 @@
     <string name="registruj_se">REGISTRUJ SE</string>
     <string name="prijavi_se">PRIJAVI SE</string>
     <string name="username_input">Unesite korisničko ime</string>
-    <string name="registruj_se_text">Registruj se!</string>
     <string name="username_example">Korisničko ime</string>
+    <string name="registruj_se_text">Registruj se!</string>
+    <string name="registruj_se_dugme">Registruj se</string>
+    <string name="login_jump">Več imaš nalog? Prijavi se ovdje</string>
+    <string name="email_hint">Email</string>
+    <string name="username_hint">Korisničko ime</string>
+    <string name="password_hint">Šifra</string>
 </resources>
