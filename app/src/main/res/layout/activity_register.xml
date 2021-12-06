@@ -4,10 +4,44 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    android:paddingTop="20dp"
+    android:paddingTop="20dp">
 
-    >
 
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Registruj se!"
+        android:textSize="36sp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/metropolis_medium"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:text="Unesi tražene podatke koje želite da koristite:"
+        android:textSize="15sp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/metropolis_medium"
+        />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_text_background"
+        android:elevation="10dp"
+        android:fontFamily="@font/metropolis_thin"
+        android:hint="Korisničko ime"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColorHint="#6C6969"
+        android:textSize="20sp"
+        android:layout_marginTop="135dp"
+        />
 
     <androidx.appcompat.widget.AppCompatEditText
         android:layout_width="match_parent"
@@ -20,62 +54,70 @@
         android:hint="Email"
         android:minHeight="48dp"
         android:padding="10dp"
-        android:textColorHint="#777373"
-        android:textSize="20sp" />
+        android:textColorHint="#6C6969"
+        android:textSize="20sp"
+        android:layout_marginTop="205dp"
+        />
 
-    <RelativeLayout
+    <androidx.appcompat.widget.AppCompatEditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:background="@drawable/navigation_background"
-        android:padding="5dp">
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_text_background"
+        android:elevation="10dp"
+        android:fontFamily="@font/metropolis_thin"
+        android:hint="Šifra"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColorHint="#6C6969"
+        android:textSize="20sp"
+        android:layout_marginTop="275dp"
+        />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
-            android:layout_marginStart="30dp"
-            android:layout_marginLeft="5dp"
-            android:drawableTop="@drawable/ic_chart"
-            android:text="STATISTIKA"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            android:textSize="10sp" />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edit_text_background"
+        android:elevation="10dp"
+        android:fontFamily="@font/metropolis_thin"
+        android:hint="Ponovi šifru"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColorHint="#6C6969"
+        android:textSize="20sp"
+        android:layout_marginTop="345dp"
+        />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:drawableTop="@drawable/ic_pin"
-            android:text="MAPA"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            android:textSize="10sp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="435dp"
+        android:text="REGISTRUJ SE"
+        android:textSize="24sp"
+        android:elevation="10dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="@color/base"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:fontFamily="@font/metropolis_medium"
+        />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_marginEnd="30dp"
-            android:layout_marginRight="5dp"
-            android:drawableTop="@drawable/ic_news"
-            android:text="NOVOSTI"
-            android:textAlignment="center"
-            android:textColor="@color/white"
-            android:textSize="10sp" />
-
-        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-            android:id="@+id/extended_fab"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:layout_gravity="bottom|end"
-            android:contentDescription="Hello"
-            android:text="IDK"
-            app:icon="@drawable/ic_plus"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22dp"
+        android:layout_marginRight="20dp"
+        android:textSize="15sp"
+        android:layout_marginTop="510dp"
+        android:text="Registracijom pristajete na naše Uslove korištenja i Politiku privatnosti."
+        android:fontFamily="@font/metropolis_medium"
+        />
 
 
-    </RelativeLayout>
 
 
 </RelativeLayout>
