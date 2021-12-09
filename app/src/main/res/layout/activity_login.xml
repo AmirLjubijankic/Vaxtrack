@@ -61,7 +61,4 @@
         android:padding="10dp"
         android:fontFamily="@font/metropolis_medium"
         />
-
-
-
 </RelativeLayout>
